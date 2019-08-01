@@ -1,0 +1,11 @@
+{
+  "name": "react-frontend-template",
+  "version": "1.0.0",
+  "description": "This is project includes the basic libraries to start a frontend project with Reactjs",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "author": "Renzo Navarro",
+  "license": "MIT"
+}
