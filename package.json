@@ -4,8 +4,9 @@
   "description": "This is project includes the basic libraries to start a frontend project with Reactjs",
   "main": "index.js",
   "scripts": {
-    "start": "webpack-dev-server --config ./webpack.config.js",
-    "build": "webpack --config ./webpack.config.js --mode production"
+    "start": "node server.js",
+    "build": "webpack --config ./webpack.config.js --mode production",
+    "dev": "webpack-dev-server --config ./webpack.config.js"
   },
   "author": "Renzo Navarro",
   "license": "MIT",
@@ -21,6 +22,7 @@
     "webpack-dev-server": "^3.7.2"
   },
   "dependencies": {
+    "express": "^4.17.1",
     "react": "^16.8.6",
     "react-dom": "^16.8.6"
   }
