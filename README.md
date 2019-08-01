@@ -1,4 +1,4 @@
-# DRAFT_react-frontend-template
+# React.js frontend template
  
 This is a basic React.js set up. It is used as a boilerplate in my projects.
 
